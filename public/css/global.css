@@ -1,0 +1,476 @@
+/*Masakuy CSS*/
+
+body, html {
+	font-family: 'News Cycle', sans-serif;
+	margin:0;
+	padding:0;
+	background: #efe6e6;
+}
+
+#header {
+	background: #f77676;
+	width:100%;
+	height:45px;
+	position:fixed;
+	z-index: 1;
+}
+
+#container {
+	width:1000px;
+	left:0px;
+	right:0px;
+	margin: 0 auto;
+}
+
+#main-section {
+	width:100%;
+	float:left;
+	margin-top:50px;
+}
+
+.welcome_msg, .welcome_msg_sm, #welcome_searchbox_cont {
+	width:100%;
+	float:left;
+	text-align: center;
+}
+
+.welcome_msg {
+	font-size:48px;
+}
+
+.welcome_msg_sm {
+	margin-top:-10px;
+	font-size:20px;
+}
+
+#welcome_searchbox_cont {
+	margin-top:20px;
+}
+
+.welcome_searchbox {
+	font-family: 'News Cycle', sans-serif;
+	width:690px;
+	background: url('../img/search_icon.png') no-repeat #fff;
+	background-size: contain;
+	border:#f77676 thin solid;
+	border-radius:5px;
+	font-size: 26px;
+	padding:5px 0px 5px 70px;
+}
+
+#featured_home {
+	margin-top:20px;
+	width:100%;
+	float:left;
+}
+
+#featured_home_cont {
+	width:690px;
+	left:0px;
+	right: 0px;
+	margin:0 auto;
+}
+
+.featured_title {
+	font-size: 18px;
+}
+
+#featured_menu {
+	width:100%;
+	margin-top:10px;
+	float:left;
+}
+
+#featured_menu a {
+	color: #000;
+}
+
+#featured_on {
+	float:left;
+	width:220px;
+	background: white;
+	padding:2px 2px 10px 2px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+#featured_on:hover {
+	box-shadow: 4px 2px 18px -2px rgba(0,0,0,0.75);
+	cursor:pointer;
+}
+
+.featured_img {
+	width: 99%;
+	height:160px;
+	margin-bottom: 5px;
+}
+
+#recipe_cont {
+	width:100%;
+	float:left;
+}
+
+#recipe_head {
+	width:100%;
+	float:left;
+}
+
+.recipe_img {
+	width:100%;
+	height:250px;
+	background:white;
+	float:left;
+	border: #f77676 2px solid;
+}
+
+.recipe_box {
+	width:40%;
+	position:absolute;
+	top:200px;
+	left:0px;
+	right:0px;
+	margin:0 auto;
+	padding:10px;
+	text-align: center;
+}
+
+.recipe_title {
+	color:white;
+	font-size:32px;
+	text-shadow: 1px 1px #f77676;
+	display:block;
+}
+
+.recipe_info {
+	display:block;
+	margin-bottom: 5px;
+}
+
+.img_love {
+	width:20px;
+}
+
+#recipe_body {
+	width:99%;
+	float:left;
+	margin-top:110px;
+	background:white;
+	padding: 5px;
+}
+
+#login_box {
+	width:50%;
+	background:white;
+	left:0px;
+	right:0px;
+	margin: 20px auto 0px auto;
+	padding:10px;
+
+}
+
+#register_box {
+	width:70%;
+	background:white;
+	left:0px;
+	right:0px;
+	margin: 20px auto 0px auto;
+	padding:10px;
+}
+
+#login_box h2, #register_box h2, #recipe_box h2 {
+	margin:0px 0px 20px 0px;
+	text-align: center;
+	font-size: 26px;
+
+}
+
+#login_box a {
+	font-size:16px;
+}
+
+#register_box img, .btnupload {
+	width:100%;
+}
+
+#recipe_box {
+	width:100%;
+	background:white;
+	left:0px;
+	right:0px;
+	margin: 20px auto 0px auto;
+	padding:10px;
+}
+
+.recipe_btn_box {
+	position:relative;
+	padding:10px;
+	text-align: center;
+	float:none;
+}
+
+#recipe_comments {
+	width:99%;
+	float:left;
+	background:white;
+	padding: 5px;
+	margin-bottom:30px;
+}
+
+#comments {
+	float:left;
+	width:100%;
+	padding:5px;
+}
+
+.comment_photo {
+	margin: 0;
+	float:left;
+	width:8%;
+	height:80px;
+}
+
+.comment_photo img {
+	width:100%;
+	height:100%;
+}
+
+.comment_content {
+	float:left;
+	width:89%;
+	margin-left: 10px;
+}
+
+.comment_name {
+	display: block;
+	width:100%;
+	font-size:20px;
+}
+
+.comment_name a {
+	color:black;
+	font-weight: bold;
+}
+
+.comment_opt {
+	font-size:12px;
+}
+
+.the_comment {
+	display: block;
+	width:100%;
+	font-size:15px;
+}
+
+#navbar_right {
+	float:right;
+	padding:10px;
+	color:#fff;
+}
+
+#navbar_collapse {
+	z-index: 1;
+	background:inherit;
+	margin-top:11px;
+	background: #f77676;
+	padding: 5px 10px;
+}
+
+#navbar_collapse li {
+	display: block;
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+#navbar_collapse li a {
+	color:#fff;
+}
+
+#navbar_collapse li a:hover {
+	text-decoration: none;
+}
+
+#navbar_name, #navbar_compose, #navbar_feeds {
+	float:right;
+	margin-left: 20px;
+	text-align: right;
+}
+
+#navbar_name:hover, #navbar_compose:hover, #navbar_feeds:hover {
+	cursor:pointer;
+}
+
+#profile_head {
+	background:white;
+	color:black;
+	width:100%;
+	border-radius:5px;
+	float:left;
+}
+
+#profileimg {
+	width:150px;
+	float:left;
+}
+
+#profilebio {
+	margin:5px 0;
+}
+
+#profileimg img {
+	width:100%;
+	height:100%;
+}
+
+#profilename {
+	font-weight: bold;
+	font-size:30px;
+}
+
+#profileinfo {
+	display:block;
+	float:left;
+	margin-left:20px;
+	font-size:18px;
+}
+
+#profile_body_left, #profile_body_right {
+	width:49%;
+	float:left;
+	margin-top:10px;
+	background:white;
+	padding: 5px;
+}
+
+#profile_body_right {
+	margin-left: 10px;
+	font-size:14px;
+}
+
+#profile_recipe {
+	height: 100px;
+	margin-top:10px;
+}
+
+#profile_body_left h2, #profile_body_right h2 {
+	font-size:20px;
+	font-weight: bold;
+}
+
+#profile_recipe_img {
+	float:left;
+	width:150px;
+	height:100px;
+}
+
+#profile_recipe_img img {
+	width:100%;
+	height:100%;
+}
+
+#profile_recipe_info {
+	margin-left: 10px;
+	float:left;
+}
+
+.profile_recipe_name {
+	font-size:24px;
+	font-weight: bold;
+	display: block;
+}
+
+.profile_recipe_stats {
+	display: block;
+	font-size:12px;
+}
+
+#profile_following {
+	margin-top:15px;
+	width:50%;
+	float: left;
+	margin-bottom: 12px;
+}
+
+#profile_followers {
+	margin-top:15px;
+	width:50%;
+	float: left;
+	margin-bottom: 12px;
+}
+
+.profile_judul {
+	display: block;
+}
+
+#friends {
+	text-align: center;
+	width:60px;
+	font-size:12px;
+	float:left;
+	margin-left: 5px;
+}
+
+#friends_img {
+	height:80px;
+	width:60px;
+	margin-bottom: -2px;
+}
+
+#friends_img img {
+	width:100%;
+	height:100%;
+}
+
+#friends_name {}
+
+#navbar_left {
+	float:left;
+}
+#navbar_left img {
+	margin-top:7px;
+	width:30px;
+}
+
+#navbar_login:hover {
+	cursor:pointer;
+}
+
+#search {
+	
+}
+
+/*Custom Fonts and Colors Styles*/
+.merah {
+	color: #f77676;
+}
+
+.merah_bg {
+	background: #f77676;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.alerttengah {
+	width:50%;
+	left: 0px;
+	right: 0px;
+	margin: 10px auto 0px auto;
+}
+
+.tekstengah {
+	text-align: center;
+}
+
+.block {
+	display: block;
+}
+
+.textAlert {
+	color:red;
+	font-weight: bold;
+}
+
+.white {
+	color: #fff;
+}
